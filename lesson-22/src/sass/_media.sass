@@ -1,0 +1,472 @@
+
+@media (max-width: 1199px)
+ .main
+ 	&-img
+ 		margin-left: 0
+ 	&-text
+ 	 &__title
+ 		 margin-bottom: 20px
+ .form
+ 	&-title
+ 		padding-right: 0px
+
+ .menu
+ 	font-size: 10px
+ 
+ 
+
+
+
+@media (max-width: 991px)
+ .hidden-mobile
+ 	display: none
+ .header
+ 	&-contacts
+	  &__phone
+			 font-size: 19px
+	.button
+		&:hover
+		 background-color: $active-color
+		 box-shadow: none
+		&-o
+		 &:hover
+		  color: rgba($text-color-dark, 0.5)
+		  border: 1px solid rgba($text-color-dark, 0.5)
+		  box-shadow: none
+		  background-color: transparent
+
+		 
+ .main
+ 	padding-top: 20px
+ 	padding-bottom: 20px
+ 	text-align: center
+ 	&-text
+ 	 &__title
+ 	 	margin-bottom: 10px
+ 		 font-size: 32px
+ 		 font-weight: 700
+ 		 color: $active-color
+ 	 &__subtitle
+ 		 margin-bottom: 15px
+ 		 font-size: 20px
+ 		 font-weight: 300
+ 		&__form
+ 			background-color: transparent
+
+ .form
+ 	display: block
+ 	&-title
+ 		padding-right: 0
+ 		font-size: 20px
+ 		line-height: 25px
+ 	&__input
+ 		display: block
+ 		width: 280px
+ 		padding: 17px
+ 		margin: auto
+ 		margin-bottom: 20px
+ 		font-size: 14px
+ 		text-align: center
+ 	&-small
+ 		font-size: 12px
+ 		margin-left: 0
+
+
+
+ .popup
+ 	width: 80%
+		text-align: center
+		&-title
+			font-size: 20px
+			max-height: 20px
+		&-form
+			//padding-top: 50px
+			&-header
+				font-size: 20px
+				line-height: 23px
+				span
+				 font-size: 16px
+				 display: block
+			&__label
+				font-size: 18px
+			&__input
+				display: block
+				width: 350px
+				text-align: center
+				margin-left: auto
+				margin-right: auto
+				margin-bottom: 10px
+			&__btn
+				margin-left: 0
+ 
+ .features
+		padding-top: 24px
+	 padding-bottom: 40px
+	 &-blocks
+		// display: block
+	 &-block
+	 	flex-basis: 45%
+		 display: flex
+		 align-items: center
+		 padding: 22px 16px
+		 margin-bottom: 15px
+		 &__img
+		 	margin-right: 11px
+		 	text-align: center
+			 max-width: 100px 
+		 &__discr
+			 line-height: 18px
+	
+	.numbers
+ 	margin-bottom: 37px
+	 text-align: center
+ 	&-block
+		 display: block
+		 width: 100%
+		 margin-bottom: 24px
+		 &__title
+			 font-size: 30px
+			 sup
+				 font-size: 16px
+		 &__text
+			 font-size: 14px
+			 font-weight: 400
+
+	.production
+	 padding-top: 32px
+	 padding-bottom: 43px
+	 margin-bottom: 0px
+	 &-block
+		 margin-bottom: 30px
+		 text-align: center
+		 &-last
+		 	margin-bottom: 0px
+		 &__img
+			 margin-bottom: 10px
+		 &__title
+			 margin-bottom: 17px
+			 font-size: 18px
+			 font-weight: 700
+			 color: $production-text
+			&__buttons
+				display: flex
+				justify-content: center
+		 &__button
+			 margin-right: 11px
+
+	.section
+		&-title
+			margin-top: 0px
+	  font-size: 22px
+	  font-weight: 700
+	  text-transform: uppercase
+	  text-align: center
+	  color: $production-text
+	  margin-bottom: 10px
+	  &::after
+	 	 content: ''
+	 	 display: none
+
+	.clients
+		padding-bottom: 28px
+	 &__img
+	  margin-right: 4%
+   img
+  	 filter: none
+
+ .feedback
+ 	&-slider
+		 &_wrap
+	   max-width: 100%
+		 
+	
+	.manufacture
+	 &-slider
+ 		&_bottom
+ 			display: none
+ 	&-text
+ 	 max-width: 100%
+ 	 text-align: center
+ 	 &__descr
+ 	  font-size: 18px
+ 	  font-weight: 300
+ 	  line-height: 24px
+ 	  text-align: center
+ 	 &__title
+ 	 	margin-left: 0
+ 	 	padding-left: 0
+ 	 	width: 100%
+ 		 margin-bottom: 17px
+ 		 margin-top: 0
+ 		 z-index: 0
+ 		 font-weight: 700
+ 		 font-size: 20px
+ 		 text-transform: uppercase
+
+@media (max-width: 768px)
+ .header
+ 	&-logo
+ 		background: $active-color url(../img/header/logo-small.png) center no-repeat
+		 width: 35px
+	 	height: 35px
+	 	border-radius: 4px
+ 	&-contacts
+	  &__phone
+	  	&s
+	  		flex-direction: column
+			 font-size: 14px
+			 margin-right: 0
+			 //font-weight: bold
+			 &:first-child
+				 border: none
+			&__button
+				padding: 9px
+
+	.features
+	 &-blocks
+		 display: block
+	 &-block
+	 	flex-basis: 40%
+		 display: flex
+		 align-items: center
+		 padding: 22px 16px
+		 margin-bottom: 15px
+
+	.manufacture
+ 	&-slider
+ 		&_bottom
+ 			display: none
+
+
+
+@media (max-width: 576px)
+	.header
+	 &-logo
+		 background: $active-color url(../img/header/logo-small.png) center no-repeat
+		 width: 35px
+	 	height: 35px
+	 	border-radius: 4px
+	 &-contacts
+	  &__phone
+	  	&s
+	  		flex-direction: column
+			 font-size: 14px
+			 margin-right: 0
+			 font-weight: bold
+			 &:first-child
+				 border: none
+			&__button
+					padding: 9px
+	.main
+		padding-top: 50px
+		padding-bottom: 50px
+		text-align: center
+		&-text
+			&__title
+				font-size: 22px
+				color: $active-color
+			&__subtitle
+				font-size: 18px
+				margin-bottom: 15px
+			&__form
+				padding: 10px
+				background-color: transparent
+
+	.form
+		display: block
+		&-title
+			padding-right: 0
+			font-size: 15px
+			line-height: 1.4
+		&__input
+			display: block
+			margin-bottom: 13px
+			margin-right: auto
+			margin-left: auto
+			padding: 17px 
+
+			width: 280px
+			text-align: center
+
+	.popup
+		top: 15px
+		text-align: center
+		&-close
+		 right: 5px
+		 top: -5px
+		
+		&-title
+			font-size: 16px
+			max-height: 20px
+		&-form
+			padding: 10px
+			padding-top: 25px
+			padding-bottom: 25px
+			&-header
+				font-size: 18px
+				line-height: 23px
+				span
+				 font-size: 14px
+				 display: block
+			&__label
+				font-size: 16px
+			&__input
+				display: block
+				width: 240px
+				text-align: center
+				margin-left: auto
+				margin-right: auto
+	
+	.features
+		padding-top: 24px
+	 padding-bottom: 40px
+	 &-blocks
+		 display: block
+	 &-block
+		 display: flex
+		 align-items: center
+		 flex-basis: 31%
+		 padding: 22px 16px
+		 margin-bottom: 8px
+		 &__img
+			 flex-basis: 40%
+			 margin-right: 11px
+		 &__discr
+			 line-height: 18px
+	
+	.numbers
+ 	margin-bottom: 37px
+	 text-align: center
+ 	&-block
+		 display: block
+		 width: 100%
+		 margin-bottom: 24px
+		 &__title
+			 font-size: 30px
+			 sup
+				 font-size: 16px
+		 &__text
+			 font-size: 14px
+			 font-weight: 400
+
+	.production
+	 padding-top: 32px
+	 padding-bottom: 43px
+	 margin-bottom: 0px
+	 &-block
+		 margin-bottom: 30px
+		 text-align: center
+		 &-last
+		 	margin-bottom: 0px
+		 &__img
+			 margin-bottom: 10px
+		 &__title
+			 margin-bottom: 17px
+			 font-size: 18px
+			 font-weight: 700
+			 color: $production-text
+			&__buttons
+				display: flex
+				justify-content: center
+		 &__button
+			 margin-right: 11px
+
+	.section
+		&-title
+			margin-top: 0px
+	  font-size: 22px
+	  font-weight: 700
+	  text-transform: uppercase
+	  text-align: center
+	  color: $production-text
+	  margin-bottom: 10px
+	  &::after
+	 	 content: ''
+	 	 display: none
+	
+	/* SECTION OFFER */
+	.offer
+		padding-top: 50px
+		padding-bottom: 52px
+		&-title
+		 font-size: 20px
+		 font-weight: 700
+	 &-subtitle
+	 	margin-top: 10px
+		 font-size: 16px
+		 font-weight: 400
+		&-form
+		 &__label
+			 margin-top: 30px
+			 margin-bottom: 22px
+			 font-size: 14px
+
+	.manufacture
+		padding-top: 28px
+		padding-bottom: 28px
+ 	&-slider
+ 		&_top
+ 			img
+ 		  height: 380px
+ 		&_bottom
+ 			display: none
+ 	&-text
+ 	 &__descr
+ 	  font-size: 14px
+ 	  font-weight: 300
+ 	  line-height: 24px
+ 	  text-align: center
+
+
+ .feedback
+ 	padding-top: 36px
+ 	padding-bottom: 36px
+ 	&-slider
+ 		img
+ 			max-width: 250px
+
+	.clients
+		&__img
+			margin-bottom: 7px
+			img
+				padding: 10px
+
+	.footer
+		&-text
+			font-size: 11px
+ 
+ .contacts
+ 	padding-top: 0
+ 	padding-bottom: 14px
+ 	flex-direction: column-reverse
+ 	text-align: center
+ 	&-block
+ 		position: static
+ 		padding-left: 34px
+ 		&__title 
+ 			&:nth-child(-n+2)
+				 &::before
+					 display: none
+ .title-mobile
+ 	margin-top: 19px
+ 	margin-bottom: 19px
+ 	display: block
+ 	font-size: 22px
+ 	font-weight: 700
+ 	text-transform: uppercase
+ 	margin-bottom: 19px
+
+
+	
+ 
+		
+		
+
+	 	
+
+
+
+
+
+
+

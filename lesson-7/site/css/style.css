@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+
+	font-family: "Tahoma", sans-serif;
+	font-size: 18px;
+}
+
+.header-img  img{
+	width: 100%;
+}
+
+.header {
+	padding-top: 77px;
+	padding-bottom: 96px;
+}
+
+.header-text__title {
+	margin-bottom: 15px;
+
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.header-text__subtitle {
+	margin-bottom: 35px;
+
+	font-size: 30px;
+}
+
+.header-text__descr {
+	margin-bottom: 47px;
+	line-height: 27px;
+}
+
+.header-text__price {
+	margin-bottom: 53px;
+	
+	color: #313131;
+	font-size: 48px;
+}
+
+.button {
+	padding: 22px 43px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+
+	border: 2px solid transparent;
+	border-radius: 5px;
+	background-color: #f05a22;
+	
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;	
+}
+
+.button-o {
+	background-color: transparent;
+	border: 2px solid #f05a22;
+	color: #f05a22;
+}
+
+.features {
+	padding-top: 89px;
+	padding-bottom: 100px;
+
+	border: 1px solid #ffffff;
+	background-color: #f2f2f2;
+	color: #333333;
+	text-align: center;
+}
+
+.section-title {
+	margin-bottom: 91px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.features__img {
+	min-height: 55px;
+}
+
+.features__text {
+	margin-bottom: 30px;
+}
+
+

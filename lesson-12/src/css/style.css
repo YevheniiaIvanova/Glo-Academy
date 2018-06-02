@@ -1,0 +1,167 @@
+@charset "UTF-8";
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #373737;
+  margin: 0;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* @import '_reset.sass' */
+.header {
+  padding: 15px 0px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-contacts__phone {
+  font-size: 22px;
+  margin-right: 13px;
+  font-weight: 500;
+}
+
+.header-contacts__phone:first-child {
+  border-right: 1px solid #cfcfd0;
+  padding-right: 13px;
+}
+
+.button {
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-color: #fd9c28;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.button img {
+  vertical-align: middle;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #fda841;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button_big {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  vertical-align: middle;
+}
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #373737;
+}
+
+.main {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  background: #373737 url(../img/main/main-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  z-index: 1;
+  /* Затемнение фонового изображения  на главном экране*/
+  /*Оформление главной картинки */
+  /* Заголовок */
+}
+
+.main::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.main-img {
+  position: relative;
+  margin-left: -100px;
+  /* оформление значка Ростеста */
+}
+
+.main-img::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/main/main-ico.png);
+  width: 60px;
+  height: 50px;
+  left: 84px;
+  bottom: 17px;
+}
+
+.main-text__title {
+  font-size: 41px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.main-text__subtitle {
+  margin-bottom: 27px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.main-text__form {
+  padding: 30px 27px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  padding-right: 87px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.form-title_important {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form__input {
+  padding: 20px;
+  border-radius: 4px;
+  border: none;
+  vertical-align: middle;
+  flex-basis: 50%;
+  margin-right: 10px;
+}
+
+.form-small {
+  margin-left: 19px;
+  font-size: 14px;
+  font-weight: 300;
+}

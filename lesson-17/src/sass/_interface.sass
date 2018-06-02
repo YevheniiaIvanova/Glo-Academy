@@ -1,0 +1,49 @@
+.section
+	&-title
+	 font-size: 27px
+	 font-weight: 700
+	 text-transform: uppercase
+	 text-align: center
+	 color: $production-text
+	 margin-bottom: 30px
+	 &::after
+	 	content: ''
+	 	display: block
+	 	margin-top: 12px
+	 	height: 6px
+	 	background: url(../img/production/title-after.png) center no-repeat
+.button
+	font-size: 14px
+	color: $text-color-light
+	border: 1px solid transparent
+	background-color: $active-color
+	padding: 13px 22px
+	border-radius: 5px
+	font-family: 'Roboto', sans-serif
+	img
+		vertical-align: middle
+	&:hover
+		cursor: pointer
+		background-color: lighten($active-color, 5)
+		box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	&:focus
+		outline: none
+	&_big
+		padding-top: 19px
+		padding-bottom: 19px
+		vertical-align: middle
+	&-o
+		background-color: transparent
+		color: rgba($text-color-dark, 0.5)
+		border: 1px solid rgba($text-color-dark, 0.5)
+		&:hover
+		 cursor: pointer
+		 background-color: lighten($active-color, 5)
+		 color: $text-color-light
+		 border: 1px solid transparent
+		 box-shadow: 0 0 10px rgba(0,0,0,0.5)
+.form__input
+	font-family: 'Roboto', sans-serif
+	font-size: 14px
+	font-weight: 300
+	color: #373737

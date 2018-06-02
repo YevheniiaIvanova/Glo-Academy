@@ -1,0 +1,26 @@
+.button
+	font-size: 14px
+	color: $text-color-light
+	border: none
+	background-color: $active-color
+	padding: 13px 22px
+	border-radius: 5px
+	font-family: 'Roboto', sans-serif
+	font-size: 15px
+	img
+		vertical-align: middle
+	&:hover
+		cursor: pointer
+		background-color: lighten($active-color, 5)
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	&:focus
+		outline: none
+	&_big
+		padding-top: 19px
+		padding-bottom: 19px
+		vertical-align: middle
+.form__input
+	font-family: 'Roboto', sans-serif
+	font-size: 14px
+	font-weight: 300
+	color: #373737

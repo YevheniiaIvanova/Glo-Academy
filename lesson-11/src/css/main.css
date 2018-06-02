@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto Reg', sans-serif;
+  color: #373737; }
+
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .header-contacts__phone {
+    font-size: 22px;
+    margin-right: 13px;
+    font-weight: 500; }
+
+.button {
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-color: #fd9c28;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-family: 'Roboto Reg', sans-serif;
+  font-size: 15px; }
+  .button img {
+    vertical-align: middle; }
+  .button:hover {
+    cursor: pointer; }
+  .button:focus {
+    outline: none; }

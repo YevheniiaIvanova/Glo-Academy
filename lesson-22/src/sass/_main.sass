@@ -1,0 +1,73 @@
+.main
+	padding-top: 65px 
+	padding-bottom: 60px
+	background: #373737 url(../img/main/main-bg.jpg) center no-repeat
+	background-size: cover
+	color: $text-color-light
+	
+	/*Оформление главной картинки */
+
+	&-img
+		margin-left: -100px
+		
+
+ /* Заголовок */
+ &-text
+ 	&__title
+ 		font-size: 41px
+ 		font-weight: 700
+ 		margin-bottom: 20px
+ 	&__subtitle
+ 		margin-bottom: 27px
+ 		font-size: 28px
+ 		font-weight: 300
+  &__form
+  	padding: 30px 27px
+  	background-color: rgba(255, 255, 255, 0.2)
+  	border-radius: 2px
+
+
+.form
+	display: flex
+	margin-bottom: 12px
+	&-title
+		margin-bottom: 20px
+		padding-right: 87px
+		font-size: 20px
+		font-weight: 300
+		line-height: 30px
+		&_important
+			font-weight: 700
+			text-transform: uppercase
+			display: block
+	&__input
+		padding: 20px
+		border-radius: 4px
+		border: none
+		vertical-align: middle
+		width: 100%
+		max-width: 365px
+		margin-right: 10px
+	&-small
+		margin-left: 19px
+		font-size: 14px
+		font-weight: 300
+
+@keyframes move
+ from
+ 	opacity: 0
+ 	margin-bottom: -100px
+ 40%
+  transform: rotate(90deg)
+ to
+  opacity: 1
+  margin-bottom: 0px
+
+.animate
+	animation-name: move
+	animation-delay: 0.4s
+	animation-duration: 1s
+
+
+
+ 	

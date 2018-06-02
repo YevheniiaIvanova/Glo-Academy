@@ -1,0 +1,54 @@
+$main-font: "Proxima Nova", sans-serif
+$main-bgc: #f9f9f9
+$main-color: #000
+
+* 
+	margin: 0
+	box-sizing: border-box
+.container
+	font-family: $main-font
+	background-color: $main-bgc
+	color: $main-color
+	text-align: center
+	padding-top: 100px
+	padding-bottom: 100px
+
+
+	&__title
+		font-size: 36px
+		font-weight: 400
+		margin-bottom: 125px
+
+.flex-container
+	display: flex
+	justify-content: space-around
+	align-items: center
+	margin: auto
+	max-width: 1140px
+.flex-item
+	&__img
+		min-height: 260px
+	&__name
+		font-size: 13px
+		font-weight: 300
+		margin-bottom: 25px
+	&__price
+		font-size: 18px
+		font-weight: 700
+		margin-bottom: 25px
+.button
+	color: #23bac1
+	font-size: 13px
+	text-transform: uppercase
+	border: 1px solid #23bac1
+	background-color: transparent
+	padding: 23px 75px
+.button:focus
+	outline: none
+.button:hover
+	cursor: pointer
+
+
+
+
+

@@ -1,0 +1,27 @@
+body {
+	font-family: "Tahoma", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #333333;
+
+	text-align: center;
+}
+
+.container {
+	padding-top: 70px;
+}
+
+.title {
+font-size: 24px;
+text-transform: uppercase;
+
+margin-bottom: 84px;
+}
+
+.advantages-image {
+	min-height: 85px;
+}
+
+.text {
+	margin-bottom: 97px;
+}
